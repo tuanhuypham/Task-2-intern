@@ -46,8 +46,12 @@ body{
     font-size: 22px;
     text-align: justify;
 }
+.content-bottom-section-6-2{
+    width: 1095px;
+    margin: 0 auto;
+}
 .img-section-2 img{
-    width: 1200px;
+    width: 1095px;
 }
 .img-section-2{
     padding-bottom: 30px;
@@ -58,6 +62,7 @@ body{
     align-items: center;
 }
 .top-conten-section-2{
+    width: 1095px;
     color: white;
 }
 .top-conten-section-2 p{
@@ -70,7 +75,7 @@ body{
     align-items: center;
 }
 .mid-content-section-2{
-    width: 1115px;
+    width: 1095px;
     display: flex;
     justify-content: space-between;
 }
@@ -101,7 +106,16 @@ body{
 .item-2-mid img{
     width: 100%;
 }
+.top-section-4{
+    width: 1095px;
+    margin: 0 auto;
+}
+.bottom-section-4{
+    width: 1095px;
+    margin: 0 auto;
+}
 .last-content p{
+    width: 1095px;
     color: white;
     font-size: 24px;
     text-align: justify;
@@ -150,11 +164,12 @@ body{
 
 .collage {
     position: relative;
-    width: 1200px;
+    width: 1095px;
     height: 500px;
 }
-.collage img{
-    width: 50%;
+
+.collage img > .img4{
+    width: 60%;
 }
 .img {
     position: absolute;
@@ -164,6 +179,7 @@ body{
 
 /* Các ảnh được xoay nhẹ và xếp chồng gần nhau */
 .img1 {
+    width: 50%;
     top: 0;
     left: 0;
     z-index: 3;
@@ -173,10 +189,12 @@ body{
     top: 20px;
     right: 0;
     z-index: 2;
+    width: 50%;
 }
 
 .img3 {
     bottom: 15px;
+    width: 50%;
     left: -2px;
     z-index: 2;
 }
@@ -185,7 +203,7 @@ body{
     bottom: -60px;
     right: -7px;
     z-index: 0;
-    width: 55%;
+    width: 68%;
 }
 .section-5{
     background-image: url(./img/section-5.png);
@@ -201,13 +219,13 @@ body{
     padding-bottom: 30px;
 }
 .item-section-5{
-    width: 500px;
+    width: 700px;
     padding-right: 190px;
 }
 .item-section-5 p{
-    font-size: 26px;
+    font-size: 35px;
     margin: 0;
-    text-align: center;
+    text-align: -webkit-center;
 }
 .section-6{
     padding-left: 200px;
@@ -215,6 +233,10 @@ body{
     background-color: rgb(97 10 7);
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.section-6 > .mid-content{
+    width: 1095px;
+    margin: 0 auto;
 }
 .section-6 >.img-section-6{
     display: flex;
@@ -225,8 +247,6 @@ body{
 }
 .section-7{
     padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
     background-image: url("./img/section-7.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,18 +262,21 @@ body{
 }
 .bottom-section-7 > div > p{
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     width: 700px;
-    text-align: justify;
+    text-align:  justify ;
 }
 
 .top-section-7{
     display: flex;
     justify-content: end;
     margin-bottom: 80px;
+    width: 1095px;
+    margin: 0 auto;
  }
 
 .bottom-section-7{
+    padding-top: 450px;
     display: flex;
     justify-content: center;
 }
